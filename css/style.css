@@ -555,14 +555,27 @@ body {
   .popup__left {
     display: table-cell;
     width: 33.333333%; }
+    @media (max-width: 75em) {
+      .popup__left {
+        width: 100%;
+        height: 33.333333%;
+        vertical-align: top; } }
   .popup__right {
     display: table-cell;
     width: 66.6666667%;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 75em) {
+      .popup__right {
+        width: 100%;
+        height: 66.6666667%;
+        vertical-align: bottom; } }
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 75em) {
+      .popup__img {
+        width: 50%; } }
   .popup__text {
     font-size: 1.4rem;
     -moz-column-count: 2;
