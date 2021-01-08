@@ -66,6 +66,7 @@
                    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                    (min-width: 125em) /*Only to show technique, use big-desktop query*/ {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-6.jpg);
+            }
         }
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7-small.jpg);
@@ -74,6 +75,7 @@
                    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                    (min-width: 125em) /*Only to show technique, use big-desktop query*/ {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-7.jpg);
+            }
         }
     }
 
