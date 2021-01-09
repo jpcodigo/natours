@@ -55,7 +55,7 @@
 
             @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
                    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-                   only screen and (min-width: 125em) /*Only to show technique, use big-desktop query*/ {
+                   only screen and (min-width: 125em) {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
     }
         }
@@ -64,8 +64,8 @@
 
             @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
                    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-                   only screen and (min-width: 125em) /*Only to show technique, use big-desktop query*/ {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-6.jpg);
+                   only screen and (min-width: 125em) {
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-6.jpg);
             }
         }
         &--3 {
@@ -73,8 +73,8 @@
 
             @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
                    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-                   only screen and (min-width: 125em) /*Only to show technique, use big-desktop query*/ {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-7.jpg);
+                   only screen and (min-width: 125em) {
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
             }
         }
     }
